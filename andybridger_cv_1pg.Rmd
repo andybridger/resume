@@ -1,0 +1,135 @@
+---
+title: "Andrew Bridger CV"
+author: Andrew Bridger
+date: r Sys.Date()
+output:
+  pagedown::html_resume:
+    css: 
+      - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
+      - resume 
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+![Andrew Bridger](andy.jpeg){width=90%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+<!-- - <i class="fa fa-envelope"></i> andrewjohnbridger@gmail.com -->
+- <i class="fa fa-home"></i> [andybridger.rbind.io](https://andybridger.github.io/)
+- <i class="fa fa-github"></i> [github.com/andybridger](https://github.com/andybridger)
+- <i class="fa fa-linkedin"></i> [andrewbridger](https://www.linkedin.com/in/andrewbridger/)
+- <i class="fa fa-twitter"></i> [AndyBridger](https://twitter.com/AndyBridger)
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Proven experience in carrying out analysis and contributing to the development of policy recommendations
+
+- Excellent written communication skills, including the ability to explain complex economics concepts and trends in plain English for diverse audiences 
+
+- Highly skilled in Excel, PowerPoint and Word and intermediately skilled in R
+
+- Reputation amongst clients and colleagues as a bright and sociable person who is easy to work with
+
+Main
+================================================================================
+
+Andrew Bridger {#title}
+--------------------------------------------------------------------------------
+
+### Economist
+
+Andy Bridger is an economist, passionate about applying and communicating economic principles to create better outcomes for all.
+
+Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Senior Economist
+
+The Australian Industry Group (Ai Group)
+
+Melbourne, AUS
+
+Dec 2017 - Present
+
+- Consulting on client projects and leading training courses in R.
+
+### Data Analyst
+
+Australian Department of Industry, Innovation and Science
+
+Canberra, AUS
+
+Feb 2016 - Dec 2017
+
+### Research Economist
+
+Synergies Economic Consulting
+
+Brisbane, AUS
+
+Jan 2015 – Jul 2015
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Edinburgh
+
+Master of Science (MSc) in Economics (Scottish Graduate Programme in Economics)
+
+Edinburgh, UK
+
+2021 - 2022
+
+### University of Canberra
+
+Graduate Certificate in Management (Public Sector)
+
+Canberra, AUS
+
+2017
+
+### University of Queensland
+
+Bachelor of Commerce/Economics
+
+Brisbane, AUS
+
+2011 - 2015
+
+References (contact details available upon request) {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Julie Toth
+
+Chief Economist (Australian Industry Group)
+
+N/A
+
+ 
+
+### Lisa Hind
+
+Previous: General Manager of the State and Territory Network at the Australian Department of Industry, Innovation and Science
+Current: General Manager Strategy and Operations at National Measurement Institute, Australia
+
+N/A
+
+
+### Jeffrey Lassen
+
+Previous: Principal at Synergies Economic Consulting
+Current: Managing Director at FTI Consulting
+
+::: aside
+Updated: `r format(Sys.time(), '%b %d, %Y')`.
+:::
